@@ -8,12 +8,13 @@ function Section1() {
       <Container>
         <Row>
           <Col lg={7} className="mb-5 mb-lg-0">
-            <div className="position:relative"></div>
-            <img src={Logo} className="img-fluid" alt="hero" />
-            <div className="price_badge">
-              <div className="badge_text">
-                <h4 className="h4_xs">Only</h4>
-                <h3 className="h3_lg">$7.12</h3>
+            <div className="position-relative">
+              <img src={Logo} className="img-fluid" alt="hero" />
+              <div className="price_badge">
+                <div className="badge_text">
+                  <h4 className="h4_xs">Only</h4>
+                  <h3 className="h3_lg">$7.12</h3>
+                </div>
               </div>
             </div>
           </Col>
