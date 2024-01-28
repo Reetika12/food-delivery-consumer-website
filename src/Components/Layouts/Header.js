@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import "../../styles/HeaderStyle.css";
 import { Link } from "react-router-dom";
 import Pizza from "../../assets/logo.jpg";
+import "../../styles/HeaderStyle.css";
+
 function Header() {
   return (
     <header>
@@ -37,7 +38,7 @@ function Header() {
               <Nav.Link as={Link} to="/">
                 <div className="cart">
                   <i class="bi bi-bag fs-5"></i>
-                  <em className="roundPoint">2</em>
+                  <em className="roundpoint">2</em>
                 </div>
               </Nav.Link>
             </Nav>
